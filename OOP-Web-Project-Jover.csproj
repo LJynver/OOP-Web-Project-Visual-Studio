@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserAuthController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -131,6 +132,25 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\401.html" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\404.html" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\500.html" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\assets\demo\chart-area-demo.js" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\assets\demo\chart-bar-demo.js" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\assets\demo\chart-pie-demo.js" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\assets\demo\datatables-demo.js" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\assets\img\error-404-monochrome.svg" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\charts.html" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\css\styles.css" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\index.html" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\js\datatables-simple-demo.js" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\js\scripts.js" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\layout-sidenav-light.html" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\layout-static.html" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\login.html" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\password.html" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\register.html" />
+    <Content Include="Content\startbootstrap-sb-admin-gh-pages-2nd-copy\tables.html" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -162,10 +182,15 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_LoginLayout.cshtml" />
+    <Content Include="Views\Shared\_Register.cshtml" />
+    <Content Include="Views\UserAuth\Login.cshtml" />
+    <Content Include="Views\UserAuth\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Login\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
